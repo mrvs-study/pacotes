@@ -1,7 +1,5 @@
-package impress;
+package impress.impressora;
 
-public class impressora {
-    public void digitalizar(){
-System.out.println("imprimindo");
-    }
+public interface impressora {
+    public void imprimir();
 }

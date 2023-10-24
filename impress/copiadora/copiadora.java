@@ -1,7 +1,5 @@
-package impress;
+package impress.copiadora;
 
-public class copiadora {
-    public void digitalizar(){
-System.out.println("imprimindo");
-    }
+public interface copiadora {
+    public void copiar();
 }

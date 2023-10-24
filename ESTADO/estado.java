@@ -1,8 +1,11 @@
+package ESTADO;
+
 public enum estado {
-    SAO_PAULO = ("SP", "Sao Paulo"),
+    SAO_PAULO ("SP", "Sao Paulo"),
     MINAS_GERAIS("MG", "Minas Gerais"),
         ACRE ("AC", "Acre"),
-            PERNAMBUCO ("PE", "Pernambuco");
+            PERNAMBUCO ("PE", "Pernambuco"),
+    CEARA ("CE", "Ceara");
     private String nome;
     private String sigla;
     private estado (String sigla, String nome){

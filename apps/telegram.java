@@ -1,4 +1,6 @@
-package mensagem;
+package apps;
+
+import apps.mensageminst;
 
 public class telegram extends mensageminst {
 
@@ -8,6 +10,8 @@ public class telegram extends mensageminst {
     }
     public void recebermensagem() {
         System.out.println("recebendo mensagem pelo telegram");
+
     }
+
 
 }

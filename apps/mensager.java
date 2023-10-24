@@ -1,6 +1,8 @@
-package mensagem;
+package apps;
 
-public class mensager extends mensageminst  {
+import apps.mensageminst;
+
+public class mensager extends mensageminst {
 
     public void enviarmensagem() {
         conectado();
@@ -8,7 +10,11 @@ public class mensager extends mensageminst  {
     }
     public void recebermensagem() {
         System.out.println("recebendo mensagem pelo mensager");
+historico();
     }
+
+
+
 
 }
 

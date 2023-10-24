@@ -1,4 +1,4 @@
-package mensagem;
+package apps;
 
 public class face extends mensageminst {
 
@@ -8,6 +8,8 @@ public class face extends mensageminst {
     }
     public void recebermensagem() {
         System.out.println("recebendo mensagem pelo facebook");
+
     }
+
 
 }

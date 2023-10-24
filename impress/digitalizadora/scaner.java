@@ -1,4 +1,9 @@
-package impress;
+package impress.digitalizadora;
 
-public class scaner extends digitalizadora{
+import impress.digitalizadora.digitalizadora;
+
+public class scaner implements digitalizadora {
+    public void digitalizar() {
+        System.out.println("digitalizando");
+    }
 }
