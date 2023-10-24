@@ -1,5 +1,8 @@
+"""Construa um programa em Python que realize o cadastramento das entradas de
+dados, com os tipos de dados nome, idade e peso, e a na saída de dados mostre o seu
+nome, idade e peso."""
+nome = input ("digite seu nome: ")
+idade = input("digite sua idade: ")
+peso = input("digite o seu peso: ")
 
-nome = "Marcos Vinicius de Santana Barros"
-curso = "desenvolvimento de sistemas"
-polo = "polivalente vitoria de santo antão"
-print ("Eu me chamo", nome, "meu curso é", curso,"\n", "Meu polo é",polo)
+print ("seu nome é:"+nome,"\n""sua idade é:"+idade,"\n""seu peso é:"+peso)
